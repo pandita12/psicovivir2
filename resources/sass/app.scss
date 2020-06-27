@@ -1,0 +1,96 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+
+//toastr
+
+@import '~toastr/build/toastr.css'; 
+
+@media print {
+
+	body{
+
+		margin-top: -80px;
+		font-size: 12pt;
+		width: 100%;
+		padding: 15px;
+		float: none;
+	}
+	
+	#navegacion, #menuDerecho{
+
+		display: none;
+	}
+	
+	#pie{
+
+		display: none;
+	}
+
+	#print{
+
+		display: none;
+
+	}
+
+	#numero{
+
+		float: left;
+		width: 50%;
+	}
+
+	#fecha
+	{
+		width: 50%;
+		float: right;
+		clear: both;
+		margin-top: -140px;
+
+	}
+
+
+	#cliente{
+
+		float: left;
+		width: 50%;
+
+	}
+
+	#resumen{
+
+		width: 50%;
+		float: right;
+		clear: both;
+		margin-top: -140px;
+
+	}
+
+	#avances{
+
+		float: left;
+		width: 50%;
+
+	}
+
+	#tecnica{
+
+		width: 50%;
+		float: right;
+		clear: both;
+		margin-top: -180px;
+
+
+	}
+
+}
+
+@page{
+
+	margin: 0;
+}
+
