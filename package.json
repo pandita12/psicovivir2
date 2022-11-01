@@ -25,7 +25,7 @@
   "dependencies": {
     "@websanova/vue-auth": "^2.21.14-beta",
     "animate.css": "^3.7.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "materialize-css": "^1.0.0-rc.2",
     "moment": "^2.23.0",
     "toastr": "^2.1.4",
